@@ -1,0 +1,1176 @@
+=========================================
+  Welcome to RouteWise
+  Smart Delivery and Route Optimization
+=========================================
+
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+=========== SYSTEM STATISTICS ===========
+Customers registered          : 6
+Parcels registered            : 10
+    Registered (no request)   : 10
+    Pending                   : 0
+    In Transit                : 0
+    Delivered                 : 0
+Normal queue length           : 0
+Urgent heap size              : 0
+Delivery history records      : 0
+Undo steps available          : 0
+Locations in the network      : 8
+Roads in the network          : 13
+Hash table                    : 10 parcels in 23 slots (load factor 0.43)
+Tree height  BST / AVL        : 10 / 4
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Search Parcel (hash table lookup) ---
+Tracking ID:   Found in hash table slot 16 after 1 probe(s).
+
+Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+1005     4        Warehouse        Railway Station  0.8    3    -    Registered
+
+  Customer: Usman Ali | 0333-4567890 | Shop 7, Central Market
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Search Parcel (hash table lookup) ---
+Tracking ID:   Found in hash table slot 21 after 2 probe(s).
+
+Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+1032     4        Warehouse        University       4.0    3    -    Registered
+
+  Customer: Usman Ali | 0333-4567890 | Shop 7, Central Market
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Search Parcel (hash table lookup) ---
+Tracking ID:   No parcel with tracking ID 9999 was found (5 occupied slot(s) checked).
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Add Normal Delivery Request ---
+Tracking ID of the parcel:   Parcel 1003 joined the NORMAL queue (arrival no. 1, place 1 in the queue).
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Add Normal Delivery Request ---
+Tracking ID of the parcel:   Parcel 1004 joined the NORMAL queue (arrival no. 2, place 2 in the queue).
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Add Normal Delivery Request ---
+Tracking ID of the parcel:   Parcel 1006 joined the NORMAL queue (arrival no. 3, place 3 in the queue).
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Add Urgent Delivery Request ---
+Tracking ID of the parcel:   Parcel 1002 was added to the URGENT heap (priority 4, arrival no. 4).
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Add Urgent Delivery Request ---
+Tracking ID of the parcel:   Parcel 1001 was added to the URGENT heap (priority 5, arrival no. 5).
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Add Urgent Delivery Request ---
+Tracking ID of the parcel:   Parcel 1009 was added to the URGENT heap (priority 4, arrival no. 6).
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Add Urgent Delivery Request ---
+Tracking ID of the parcel:   Parcel 1007 was added to the URGENT heap (priority 5, arrival no. 7).
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Pending Deliveries ---
+
+URGENT deliveries (highest priority first, equal priority = arrival order): 4
+Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+1001     1        Warehouse        Airport          2.5    5    5    Pending
+1007     2        Warehouse        City Center      1.0    5    7    Pending
+1002     2        Warehouse        Hospital         1.2    4    4    Pending
+1009     3        Warehouse        Hospital         2.2    4    6    Pending
+
+NORMAL deliveries (first come, first served): 3
+Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+1003     3        Warehouse        University       3.0    1    1    Pending
+1004     1        Warehouse        Residential Area 5.5    2    2    Pending
+1006     5        Industrial Area  Hospital         12.0   1    3    Pending
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Process Next Delivery ---
+  Taken from the URGENT heap (priority 5).
+
+Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+1001     1        Warehouse        Airport          2.5    5    5    In Transit
+
+  Status changed: Pending -> In Transit
+
+Recommended Route:
+Warehouse -> City Center -> University -> Airport
+Total Distance: 18 km
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Process Next Delivery ---
+  Taken from the URGENT heap (priority 5).
+
+Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+1007     2        Warehouse        City Center      1.0    5    7    In Transit
+
+  Status changed: Pending -> In Transit
+
+Recommended Route:
+Warehouse -> City Center
+Total Distance: 5 km
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Process Next Delivery ---
+  Taken from the URGENT heap (priority 4).
+
+Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+1002     2        Warehouse        Hospital         1.2    4    4    In Transit
+
+  Status changed: Pending -> In Transit
+
+Recommended Route:
+Warehouse -> City Center -> Hospital
+Total Distance: 9 km
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Mark Parcel as Delivered ---
+Tracking ID:   Parcel 1001 is delivered.  Status changed: In Transit -> Delivered
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Undo Last Operation ---
+  Undone: the delivery of parcel 1001.
+  Status restored: Delivered -> In Transit
+
+Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+1001     1        Warehouse        Airport          2.5    5    5    In Transit
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Undo Last Operation ---
+  Undone: the processing of parcel 1002. It is back in the URGENT heap.
+  Status restored: In Transit -> Pending
+
+Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+1002     2        Warehouse        Hospital         1.2    4    4    Pending
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Pending Deliveries ---
+
+URGENT deliveries (highest priority first, equal priority = arrival order): 2
+Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+1002     2        Warehouse        Hospital         1.2    4    4    Pending
+1009     3        Warehouse        Hospital         2.2    4    6    Pending
+
+NORMAL deliveries (first come, first served): 3
+Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+1003     3        Warehouse        University       3.0    1    1    Pending
+1004     1        Warehouse        Residential Area 5.5    2    2    Pending
+1006     5        Industrial Area  Hospital         12.0   1    3    Pending
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Display Records ---
+  1. All parcels (sorted by tracking ID)
+  2. Delivery history (processed and delivered parcels)
+  3. All customers
+  4. Hash table layout (shows collisions and probing)
+Your choice (1-4): 
+DELIVERY HISTORY (newest first) - 2 record(s)
+No.  Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+2    1007     2        Warehouse        City Center      1.0    5    7    In Transit
+1    1001     1        Warehouse        Airport          2.5    5    5    In Transit
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Display Records ---
+  1. All parcels (sorted by tracking ID)
+  2. Delivery history (processed and delivered parcels)
+  3. All customers
+  4. Hash table layout (shows collisions and probing)
+Your choice (1-4): 
+ALL PARCEL RECORDS (sorted by tracking ID, read from the AVL tree) - 10 parcel(s)
+Track ID Cust ID  Source           Destination      Kg     Pri  Arr  Status
+------------------------------------------------------------------------------
+1001     1        Warehouse        Airport          2.5    5    5    In Transit
+1002     2        Warehouse        Hospital         1.2    4    4    Pending
+1003     3        Warehouse        University       3.0    1    1    Pending
+1004     1        Warehouse        Residential Area 5.5    2    2    Pending
+1005     4        Warehouse        Railway Station  0.8    3    -    Registered
+1006     5        Industrial Area  Hospital         12.0   1    3    Pending
+1007     2        Warehouse        City Center      1.0    5    7    In Transit
+1008     6        Warehouse        Airport          7.5    2    -    Registered
+1009     3        Warehouse        Hospital         2.2    4    6    Pending
+1032     4        Warehouse        University       4.0    3    -    Registered
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Display Records ---
+  1. All parcels (sorted by tracking ID)
+  2. Delivery history (processed and delivered parcels)
+  3. All customers
+  4. Hash table layout (shows collisions and probing)
+Your choice (1-4): 
+HASH TABLE LAYOUT  (10 parcels in 23 slots)
+hash function: slot = trackingID % 23   |   collision rule: linear probing
+------------------------------------------------------------------------------
+Slot 0   : (empty)
+Slot 1   : (empty)
+Slot 2   : (empty)
+Slot 3   : (empty)
+Slot 4   : (empty)
+Slot 5   : (empty)
+Slot 6   : (empty)
+Slot 7   : (empty)
+Slot 8   : (empty)
+Slot 9   : (empty)
+Slot 10  : (empty)
+Slot 11  : (empty)
+Slot 12  : Parcel 1001
+Slot 13  : Parcel 1002
+Slot 14  : Parcel 1003
+Slot 15  : Parcel 1004
+Slot 16  : Parcel 1005
+Slot 17  : Parcel 1006
+Slot 18  : Parcel 1007
+Slot 19  : Parcel 1008
+Slot 20  : Parcel 1009
+Slot 21  : Parcel 1032   <- collision: its home slot is 20, so it was moved forward
+Slot 22  : (empty)
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Display Records ---
+  1. All parcels (sorted by tracking ID)
+  2. Delivery history (processed and delivered parcels)
+  3. All customers
+  4. Hash table layout (shows collisions and probing)
+Your choice (1-4): 
+ID      Name                  Phone           Address
+------------------------------------------------------------------------
+1       Ayesha Khan           0300-1234567    House 12, Street 3, Block A
+2       Bilal Ahmed           0311-2345678    Flat 5, Green Apartments
+3       Sara Malik            0321-3456789    House 48, Main Road
+4       Usman Ali             0333-4567890    Shop 7, Central Market
+5       Fatima Noor           0345-5678901    House 21, Park Avenue
+6       Hamza Tariq           0301-6789012    Office 3, Business Tower
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- City Delivery Network ---
+
+Locations:
+  [0] Warehouse           [1] City Center         [2] University        
+  [3] Hospital            [4] Airport             [5] Railway Station   
+  [6] Industrial Area     [7] Residential Area  
+
+ADJACENCY LIST (every location with the roads that leave it)
+------------------------------------------------------------------------------
+Warehouse        : [City Center, 5 km] -> [Industrial Area, 4 km] -> [Railway Station, 9 km] -> NULL
+City Center      : [Warehouse, 5 km] -> [University, 6 km] -> [Hospital, 4 km] -> [Railway Station, 3 km] -> NULL
+University       : [City Center, 6 km] -> [Airport, 7 km] -> [Residential Area, 5 km] -> NULL
+Hospital         : [City Center, 4 km] -> [Residential Area, 3 km] -> [Airport, 12 km] -> NULL
+Airport          : [University, 7 km] -> [Hospital, 12 km] -> [Industrial Area, 20 km] -> [Residential Area, 9 km] -> NULL
+Railway Station  : [Warehouse, 9 km] -> [City Center, 3 km] -> [Industrial Area, 6 km] -> NULL
+Industrial Area  : [Warehouse, 4 km] -> [Railway Station, 6 km] -> [Airport, 20 km] -> NULL
+Residential Area : [University, 5 km] -> [Hospital, 3 km] -> [Airport, 9 km] -> NULL
+
+ADJACENCY MATRIX (road length in km, 0 = no direct road)
+------------------------------------------------------------------------------
+                           0    1    2    3    4    5    6    7
+[ 0] Warehouse             0    5    0    0    0    9    4    0
+[ 1] City Center           5    0    6    4    0    3    0    0
+[ 2] University            0    6    0    0    7    0    0    5
+[ 3] Hospital              0    4    0    0   12    0    0    3
+[ 4] Airport               0    0    7   12    0    0   20    9
+[ 5] Railway Station       9    3    0    0    0    0    6    0
+[ 6] Industrial Area       4    0    0    0   20    6    0    0
+[ 7] Residential Area      0    0    5    3    9    0    0    0
+
+  8 location(s), 13 road(s).
+
+  1. Add a location
+  2. Add a road
+  3. Display the network again
+  0. Back to the main menu
+  Your choice (0-3): 
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- BFS Network Traversal ---
+Locations:
+  [0] Warehouse           [1] City Center         [2] University        
+  [3] Hospital            [4] Airport             [5] Railway Station   
+  [6] Industrial Area     [7] Residential Area  
+Start location (name or number, Enter = cancel): Destination to check (name or number, Enter = skip): 
+Start location: Warehouse
+BFS visiting order:
+  Warehouse -> City Center -> Industrial Area -> Railway Station -> University -> Hospital -> Airport -> Residential Area
+  Locations reached: 8 of 8
+
+Reachability: Airport IS reachable from Warehouse.
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- DFS Network Traversal ---
+Locations:
+  [0] Warehouse           [1] City Center         [2] University        
+  [3] Hospital            [4] Airport             [5] Railway Station   
+  [6] Industrial Area     [7] Residential Area  
+Start location (name or number, Enter = cancel): Destination to check (name or number, Enter = skip): 
+Start location: Warehouse
+DFS visiting order:
+  Warehouse -> City Center -> University -> Airport -> Hospital -> Residential Area -> Industrial Area -> Railway Station
+  Locations reached: 8 of 8
+
+Reachability: Airport IS reachable from Warehouse.
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Find Shortest Delivery Route ---
+Locations:
+  [0] Warehouse           [1] City Center         [2] University        
+  [3] Hospital            [4] Airport             [5] Railway Station   
+  [6] Industrial Area     [7] Residential Area  
+Source (name or number, Enter = cancel): Destination (name or number, Enter = cancel): 
+Source: Warehouse
+Destination: Airport
+Recommended Route:
+Warehouse -> City Center -> University -> Airport
+Total Distance: 18 km
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Generate Minimum Delivery Network (Minimum Spanning Tree) ---
+Selected roads (in the order Prim's algorithm adds them):
+  1. Warehouse --- Industrial Area   (4 km)
+  2. Warehouse --- City Center   (5 km)
+  3. City Center --- Railway Station   (3 km)
+  4. City Center --- Hospital   (4 km)
+  5. Hospital --- Residential Area   (3 km)
+  6. Residential Area --- University   (5 km)
+  7. University --- Airport   (7 km)
+Total network cost: 31 km
+All roads of the city together: 93 km
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+--- Compare BST and AVL Performance ---
+
+PART 1: the parcels that are registered now
+
+                                  BST       AVL       
+------------------------------------------------------
+Number of parcels (keys)          10        10        
+Tree height (levels)              10        4         
+Smallest possible height          4         4         
+Average steps to find a key       5.50      2.90      
+Rotations used while inserting    none      6         
+Follows the AVL balance rule?     NO        YES       
+
+  The BST is 6 level(s) taller than the AVL tree.
+
+BST structure (turned 90 degrees: the root is on the left, bigger keys are on top):
+                                    1032
+                                1009
+                            1008
+                        1007
+                    1006
+                1005
+            1004
+        1003
+    1002
+1001
+
+AVL structure (same keys, same way of drawing):
+            1032
+        1009
+    1008
+            1007
+        1006
+            1005
+1004
+        1003
+    1002
+        1001
+
+Traversals (tracking IDs):
+  In-order   BST : 1001 1002 1003 1004 1005 1006 1007 1008 1009 1032 
+  In-order   AVL : 1001 1002 1003 1004 1005 1006 1007 1008 1009 1032 
+  Pre-order  BST : 1001 1002 1003 1004 1005 1006 1007 1008 1009 1032 
+  Pre-order  AVL : 1004 1002 1001 1003 1008 1006 1005 1007 1009 1032 
+  Post-order BST : 1032 1009 1008 1007 1006 1005 1004 1003 1002 1001 
+  Post-order AVL : 1001 1003 1002 1005 1007 1006 1032 1009 1008 1004 
+
+PART 2: demonstration - IDs inserted in SORTED order (the worst case for a BST)
+How many sorted IDs (1, 2, 3, ...) should be inserted? (0 = skip, max 1000): 
+The IDs 1, 2, 3, ... 15 were inserted into both trees in this order.
+
+                                  BST       AVL       
+------------------------------------------------------
+Number of parcels (keys)          15        15        
+Tree height (levels)              15        4         
+Smallest possible height          4         4         
+Average steps to find a key       8.00      3.27      
+Rotations used while inserting    none      11        
+Follows the AVL balance rule?     NO        YES       
+
+  The BST is 11 level(s) taller than the AVL tree.
+
+BST structure (turned 90 degrees: the root is on the left, bigger keys are on top):
+                                                        15
+                                                    14
+                                                13
+                                            12
+                                        11
+                                    10
+                                9
+                            8
+                        7
+                    6
+                5
+            4
+        3
+    2
+1
+
+AVL structure (same keys, same way of drawing):
+            15
+        14
+            13
+    12
+            11
+        10
+            9
+8
+            7
+        6
+            5
+    4
+            3
+        2
+            1
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+=========== SYSTEM STATISTICS ===========
+Customers registered          : 6
+Parcels registered            : 10
+    Registered (no request)   : 3
+    Pending                   : 5
+    In Transit                : 2
+    Delivered                 : 0
+Normal queue length           : 3
+Urgent heap size              : 2
+Delivery history records      : 2
+Undo steps available          : 2
+Locations in the network      : 8
+Roads in the network          : 13
+Hash table                    : 10 parcels in 23 slots (load factor 0.43)
+Tree height  BST / AVL        : 10 / 4
+
+Press Enter to return to the menu...
+=========================================
+ROUTEWISE DELIVERY SYSTEM
+=========================================
+1. Register Customer
+2. Register Parcel
+3. Search Parcel
+4. Add Normal Delivery Request
+5. Add Urgent Delivery Request
+6. Process Next Delivery
+7. Mark Parcel as Delivered
+8. Undo Last Operation
+9. Display Pending Deliveries
+10. Display Parcel Records
+11. Display City Network
+12. BFS Network Traversal
+13. DFS Network Traversal
+14. Find Shortest Delivery Route
+15. Generate Minimum Delivery Network
+16. Compare BST and AVL Performance
+17. Display System Statistics
+18. Exit
+=========================================
+Enter your choice (1-18): 
+Thank you for using RouteWise. Goodbye!

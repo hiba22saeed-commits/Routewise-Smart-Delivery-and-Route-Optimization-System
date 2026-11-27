@@ -1,0 +1,23 @@
+# RouteWise - city network (saved automatically)
+LOCATION|Warehouse
+LOCATION|City Center
+LOCATION|University
+LOCATION|Hospital
+LOCATION|Airport
+LOCATION|Railway Station
+LOCATION|Industrial Area
+LOCATION|Residential Area
+ROAD|Warehouse|City Center|5
+ROAD|Warehouse|Industrial Area|4
+ROAD|Warehouse|Railway Station|9
+ROAD|City Center|University|6
+ROAD|City Center|Hospital|4
+ROAD|City Center|Railway Station|3
+ROAD|University|Airport|7
+ROAD|University|Residential Area|5
+ROAD|Hospital|Residential Area|3
+ROAD|Hospital|Airport|12
+ROAD|Railway Station|Industrial Area|6
+ROAD|Industrial Area|Airport|20
+ROAD|Residential Area|Airport|9
+ROAD|Airport|Railway Station|1000

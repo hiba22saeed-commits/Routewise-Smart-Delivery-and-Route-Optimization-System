@@ -1,0 +1,9 @@
+# RouteWise - customers (saved automatically)
+1|Ayesha Khan|0300-1234567|House 12, Street 3, Block A
+2|Bilal Ahmed|0311-2345678|Flat 5, Green Apartments
+3|Sara Malik|0321-3456789|House 48, Main Road
+4|Usman Ali|0333-4567890|Shop 7, Central Market
+5|Fatima Noor|0345-5678901|House 21, Park Avenue
+6|Hamza Tariq|0301-6789012|Office 3, Business Tower
+1002|hiba saeed|2345678|faislabad
+1006|Qaima maryam|23456788|faisalabad

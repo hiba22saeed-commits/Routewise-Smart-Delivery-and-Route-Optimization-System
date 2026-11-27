@@ -1,0 +1,12 @@
+# RouteWise - parcels (saved automatically)
+1001|1|Warehouse|Airport|2.50|5
+1002|2|Warehouse|Hospital|1.20|4
+1003|3|Warehouse|University|3.00|1
+1004|1|Warehouse|Residential Area|5.50|2
+1005|4|Warehouse|Railway Station|0.80|3
+1006|5|Industrial Area|Hospital|12.00|1
+1007|2|Warehouse|City Center|1.00|5
+1008|6|Warehouse|Airport|7.50|2
+1009|3|Warehouse|Hospital|2.20|4
+1032|4|Warehouse|University|4.00|3
+1010|1|Warehouse|Hospital|3.40|5
