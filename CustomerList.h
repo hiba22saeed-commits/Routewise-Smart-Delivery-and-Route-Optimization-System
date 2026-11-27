@@ -23,9 +23,7 @@ private:
     int count;          // how many customers
 
 public:
-    // ##########################################################
-    // #  MEMBER 2  :  findCustomer, constructor, destructor
-    // ##########################################################
+   
     CustomerList() {
         head = NULL;
         tail = NULL;
@@ -51,9 +49,7 @@ public:
         return NULL;
     }
 
-    // ##########################################################
-    // #  MEMBER 3  :  addCustomer, getCount
-    // ##########################################################
+   
     // Adds a new customer at the end of the list. Returns false if the ID is already used.
     bool addCustomer(int id, const string& name, const string& phone, const string& address) {
         if (findCustomer(id) != NULL) return false;
@@ -78,9 +74,7 @@ public:
 
     int getCount() { return count; }
 
-    // ##########################################################
-    // #  MEMBER 1  :  saveTo, display
-    // ##########################################################
+   
     // Writes every customer as one line:  id|name|phone|address
     void saveTo(ostream& out) {
         for (Customer* c = head; c != NULL; c = c->next) {
