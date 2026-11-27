@@ -25,9 +25,7 @@ private:
     int count;          // number of items
 
 public:
-    // ##########################################################
-    // #  MEMBER 1  :  push, constructor, destructor
-    // ##########################################################
+ 
     Stack() {
         topNode = NULL;
         count = 0;
@@ -46,9 +44,7 @@ public:
         count++;
     }
 
-    // ##########################################################
-    // #  MEMBER 2  :  pop
-    // ##########################################################
+    
     // Removes the top item and gives it back in 'value'.
     // Returns false (and changes nothing) when the stack is empty.
     bool pop(T& value) {
@@ -61,9 +57,7 @@ public:
         return true;
     }
 
-    // ##########################################################
-    // #  MEMBER 3  :  peek, isEmpty, size, clear
-    // ##########################################################
+    
     // Looks at the top item without removing it.
     bool peek(T& value) {
         if (topNode == NULL) return false;
