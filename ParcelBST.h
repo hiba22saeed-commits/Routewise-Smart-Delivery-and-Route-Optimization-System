@@ -22,9 +22,7 @@
 #include "Models.h"
 using namespace std;
 
-// ##########################################################
-// #  MEMBER 3  :  insertHelper, findNode, BSTNode struct, heightHelper, depthSum
-// ##########################################################
+
 struct BSTNode {
     int key;                // tracking ID
     Parcel* parcel;         // pointer to the parcel record
@@ -80,9 +78,7 @@ private:
         return depth + depthSum(node->left, depth + 1) + depthSum(node->right, depth + 1);
     }
 
-    // ##########################################################
-    // #  MEMBER 1  :  checkBalance, inorderKeys, inorderRecords, preorderKeys, postorderKeys
-    // ##########################################################
+ 
     // Returns the height of the subtree, or -1 if some node breaks the AVL balance rule.
     // (A plain BST does not keep this rule, but we can still CHECK it for the comparison.)
     int checkBalance(BSTNode* node) {
@@ -124,9 +120,7 @@ private:
         cout << node->key << " ";
     }
 
-    // ##########################################################
-    // #  MEMBER 2  :  sidewaysHelper (tree drawing), insert, search, destroy, constructor, destructor, getters, isBalanced, averageSearchSteps, show functions
-    // ##########################################################
+ 
     // Prints the tree turned 90 degrees: the root is at the left edge, bigger keys are drawn
     // ABOVE their parent (/--), smaller keys BELOW their parent (\--) and | joins a child to its parent.
     //        /-- 20
