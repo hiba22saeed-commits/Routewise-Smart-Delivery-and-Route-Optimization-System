@@ -59,9 +59,7 @@ private:
     //  Small private helpers
     // ===============================================================
 
-    // ##########################################################
-    // #  MEMBER 1  :  askLocation, checkNetworkNotEmpty
-    // ##########################################################
+   
     // true if the network has locations; otherwise prints a hint.
     bool checkNetworkNotEmpty() {
         if (network.getLocationCount() == 0) {
@@ -88,9 +86,7 @@ private:
         }
     }
 
-    // ##########################################################
-    // #  MEMBER 2  :  addParcelRecord, askForNewRequestParcel, showRouteOfParcel
-    // ##########################################################
+ 
     // Creates a parcel with new and stores it in the hash table (owner) and in both trees.
     Parcel* addParcelRecord(int trackingID, int customerID, const string& source,
                             const string& destination, double weight, int priority) {
@@ -148,9 +144,7 @@ private:
         network.printRoute(path, pathLength, totalDistance);
     }
 
-    // ##########################################################
-    // #  MEMBER 3  :  printTreeComparison, printTreeStructures (tree drawing, menu 16), bestPossibleHeight
-    // ##########################################################
+ 
     // The smallest possible height of a binary tree with n nodes.
     // (1 level holds 1 node, 2 levels hold 3, 3 levels hold 7, ...)
     int bestPossibleHeight(int n) {
@@ -202,9 +196,7 @@ private:
         printLine('=', 72);
     }
 
-    // ##########################################################
-    // #  MEMBER 1  :  loadNetworkFile, loadCustomerFile, loadParcelFile, cleanLine, reportSkipped
-    // ##########################################################
+    
     // Removes the BOM (hidden first characters that some editors add) and the spaces around a line.
     string cleanLine(string line, int lineNumber) {
         if (lineNumber == 1 && line.length() >= 3 && (unsigned char)line[0] == 0xEF
@@ -328,9 +320,7 @@ private:
         if (skipped > 0) cout << RED << "  " << path << ": " << skipped << " line(s) skipped.\n" << RESET;
     }
 
-    // ##########################################################
-    // #  MEMBER 3  :  runTraversal (BFS/DFS), addRoadInteractive, showNetwork, addLocationInteractive
-    // ##########################################################
+  
     // ---------- network display and editing (used by menu option 11) ----------
 
     void showNetwork() {
@@ -407,9 +397,7 @@ private:
     }
 
 public:
-    // ##########################################################
-    // #  MEMBER 1  :  loadFromFiles, saveAll, Menu 2 Register Parcel, Menu 3 Search Parcel, constructor, Menu 1 Register Customer
-    // ##########################################################
+ 
     RouteWiseSystem() {
         nextArrivalNo = 1;
         dataFolder = "data";
@@ -537,9 +525,6 @@ public:
         }
     }
 
-    // ##########################################################
-    // #  MEMBER 2  :  Menu 6 Process Next, Menu 8 Undo, Menu 9 Pending, Menu 4 Normal Request, Menu 5 Urgent Request, Menu 7 Mark Delivered
-    // ##########################################################
     // ===============================================================
     //  Menu 4 - Add Normal Delivery Request  (queue)
     // ===============================================================
@@ -706,9 +691,7 @@ public:
         }
     }
 
-    // ##########################################################
-    // #  MEMBER 3  :  Menu 14 Shortest Route, Menu 16 BST vs AVL, Menu 10, 11, 12, 13, 15, 17
-    // ##########################################################
+
     // ===============================================================
     //  Menu 10 - Display Parcel Records
     // ===============================================================
