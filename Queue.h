@@ -28,9 +28,7 @@ private:
     int count;
 
 public:
-    // ##########################################################
-    // #  MEMBER 3  :  enqueue, constructor, destructor
-    // ##########################################################
+   
     Queue() {
         frontNode = NULL;
         rearNode = NULL;
@@ -56,9 +54,7 @@ public:
         count++;
     }
 
-    // ##########################################################
-    // #  MEMBER 1  :  dequeue, peek
-    // ##########################################################
+  
     // Removes the front item and gives it back in 'value'.
     // Returns false (and changes nothing) when the queue is empty.
     bool dequeue(T& value) {
@@ -79,9 +75,6 @@ public:
         return true;
     }
 
-    // ##########################################################
-    // #  MEMBER 2  :  enqueueFront (used by Undo), isEmpty, size, clear
-    // ##########################################################
     // Special function used ONLY by "Undo": it puts an item back at the FRONT,
     // because that is where the parcel was before it was processed.
     void enqueueFront(const T& value) {
