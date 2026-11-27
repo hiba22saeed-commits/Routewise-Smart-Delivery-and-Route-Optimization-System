@@ -16,9 +16,7 @@
 #include "Utils.h"
 using namespace std;
 
-// ##########################################################
-// #  MEMBER 2  :  Customer struct, status texts, priority limits
-// ##########################################################
+
 // ---------- delivery status of a parcel ----------
 const string STATUS_REGISTERED = "Registered";   // record created, no delivery request yet
 const string STATUS_PENDING    = "Pending";      // waiting in the normal queue or in the urgent heap
@@ -38,9 +36,7 @@ struct Customer {
     Customer* next;        // next customer in the linked list
 };
 
-// ##########################################################
-// #  MEMBER 3  :  Parcel struct, UndoRecord struct, OP_PROCESS / OP_DELIVER constants
-// ##########################################################
+
 // ---------- Parcel ----------
 struct Parcel {
     int trackingID;        // unique number used for searching
@@ -63,9 +59,7 @@ struct UndoRecord {
     string previousStatus;     // the status it had BEFORE the change
     bool wasUrgent;            // for OP_PROCESS: did it come from the urgent heap?
 };
-// ##########################################################
-// #  MEMBER 1  :  printParcelHeader, printParcelRow, statusColor
-// ##########################################################
+
 inline string statusColor(const string& status) {
     if (status == STATUS_PENDING) return YELLOW;
     if (status == STATUS_IN_TRANSIT) return CYAN;
