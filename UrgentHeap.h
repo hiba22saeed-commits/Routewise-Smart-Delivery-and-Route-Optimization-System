@@ -26,9 +26,7 @@ private:
     int capacity;       // size of the array
     int count;          // how many parcels are stored
 
-    // ##########################################################
-    // #  MEMBER 1  :  hasHigherPriority, moveUp, swapItems
-    // ##########################################################
+  
     // true when parcel a must be served BEFORE parcel b
     bool hasHigherPriority(Parcel* a, Parcel* b) {
         if (a->priority != b->priority) {
@@ -56,9 +54,7 @@ private:
         }
     }
 
-    // ##########################################################
-    // #  MEMBER 2  :  moveDown, grow, constructor, destructor
-    // ##########################################################
+   
     // After removing the top, the last item is put on top. Move it DOWN until the heap is correct.
     void moveDown(int i) {
         while (true) {
@@ -94,9 +90,7 @@ public:
         delete[] data;          // only the array is deleted; the parcels belong to the hash table
     }
 
-    // ##########################################################
-    // #  MEMBER 3  :  insert, removeTop, peek, getAt, isEmpty, size
-    // ##########################################################
+ 
     // Adds a parcel.
     void insert(Parcel* p) {
         if (count == capacity) grow();
