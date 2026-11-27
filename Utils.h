@@ -16,9 +16,7 @@
 #include <string>
 #include <cstdlib>      // exit(), atoi(), atof()
 using namespace std;
-// ##########################################################
-// #  MEMBER 1  :  splitText, trim, colour codes, isBlankChar, toLower, sameText
-// ##########################################################
+
 const string RESET   = "\033[0m";
 const string CYAN    = "\033[1;36m";
 const string YELLOW  = "\033[1;33m";
@@ -77,9 +75,7 @@ inline int splitText(const string& line, char separator, string parts[], int max
     return count;
 }
 
-// ##########################################################
-// #  MEMBER 2  :  readLine, isWholeNumber, isDecimalNumber, printLine, readInt
-// ##########################################################
+
 // Prints a line made of 'length' copies of 'symbol' (used for table borders).
 inline void printLine(char symbol, int length) {
     cout << CYAN << string(length, symbol) << RESET << endl;
@@ -139,9 +135,7 @@ inline int readInt(const string& prompt) {
     }
 }
 
-// ##########################################################
-// #  MEMBER 3  :  readPositiveDouble, readIntInRange, readPositiveInt, readNonEmpty, removeBars, pauseForEnter
-// ##########################################################
+
 // Reads a whole number between low and high (both included).
 inline int readIntInRange(const string& prompt, int low, int high) {
     while (true) {
