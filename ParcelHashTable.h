@@ -28,9 +28,7 @@ private:
     int count;              // number of parcels stored
     bool quiet;             // true = do not print the "table grew" message
 
-    // ##########################################################
-    // #  MEMBER 2  :  place (linear probing), grow (re-hashing), homeSlot
-    // ##########################################################
+    
     // The hash function: where should this tracking ID live?
     int homeSlot(int trackingID) {
         return trackingID % tableSize;
@@ -65,9 +63,7 @@ private:
     }
 
 public:
-    // ##########################################################
-    // #  MEMBER 3  :  search, insert, constructor, destructor
-    // ##########################################################
+  
     ParcelHashTable() {
         tableSize = 11;
         count = 0;
@@ -117,9 +113,7 @@ public:
         return true;
     }
 
-    // ##########################################################
-    // #  MEMBER 1  :  displayLayout, saveTo, getCount, setQuiet, getTableSize, countWithStatus
-    // ##########################################################
+ 
     int getCount() { return count; }
 
     void setQuiet(bool value) { quiet = value; }
