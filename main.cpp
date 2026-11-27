@@ -8,9 +8,7 @@
 //  Build:   g++ main.cpp -o RouteWise
 //  Run:     ./RouteWise        (Windows: RouteWise.exe)
 // ============================================================
-// ##########################################################
-// #  MEMBER 2  :  enableColors, includes
-// ##########################################################
+
 #include <iostream>
 #include <string>
 #include "Utils.h"
@@ -32,9 +30,7 @@ void enableColors() {
 #endif
 }
 
-// ##########################################################
-// #  MEMBER 3  :  showMenu, menuItem
-// ##########################################################
+
 // One menu line: the number in yellow, the text in green.
 void menuItem(int number, const string& text) {
     cout << YELLOW << number << "." << GREEN << " " << text << RESET << "\n";
@@ -74,9 +70,6 @@ void showMenu(bool firstTime) {
     cout << CYAN << "=========================================" << RESET << "\n";
 }
 
-// ##########################################################
-// #  MEMBER 1  :  main() - start-up, menu loop, switch
-// ##########################################################
 int main() {
     RouteWiseSystem app;        // one object that holds every data structure
 
