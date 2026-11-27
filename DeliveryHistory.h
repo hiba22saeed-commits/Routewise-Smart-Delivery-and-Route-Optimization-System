@@ -17,9 +17,7 @@
 #include "Models.h"
 using namespace std;
 
-// ##########################################################
-// #  MEMBER 3  :  addAtEnd, HistoryNode struct, constructor, destructor
-// ##########################################################
+
 struct HistoryNode {
     Parcel* parcel;
     HistoryNode* prev;      // older record
@@ -59,9 +57,7 @@ public:
         count++;
     }
 
-    // ##########################################################
-    // #  MEMBER 1  :  removeLast, getCount
-    // ##########################################################
+    
     // Removes the newest record (used by Undo). Returns the parcel, or NULL if the list is empty.
     Parcel* removeLast() {
         if (tail == NULL) return NULL;
@@ -77,9 +73,7 @@ public:
 
     int getCount() { return count; }
 
-    // ##########################################################
-    // #  MEMBER 2  :  display (newest first)
-    // ##########################################################
+   
     // Shows the history, newest record first.
     void display() {
         if (tail == NULL) {
