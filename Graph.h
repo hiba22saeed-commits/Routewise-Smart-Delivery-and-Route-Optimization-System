@@ -28,9 +28,7 @@
 #include "Stack.h"
 using namespace std;
 
-// ##########################################################
-// #  MEMBER 1  :  addRoad, addLocation, findLocation, constants, Edge struct, addToList, constructor, destructor, getters, hasRoad, saveTo, totalRoadLength
-// ##########################################################
+
 const int MAX_LOCATIONS = 50;               // the network can hold up to 50 locations
 const int MAX_ROAD_LENGTH = 10000;          // longest allowed road (km)
 const int INFINITE_DISTANCE = 1000000000;   // "not reached yet"
@@ -160,9 +158,7 @@ public:
         return true;
     }
 
-    // ##########################################################
-    // #  MEMBER 3  :  bfs, dfs, displayLocationList, displayAdjacencyList, displayMatrix
-    // ##########################################################
+   
     // ---------------------------------------------------------------
     //  Display (Module 5)
     // ---------------------------------------------------------------
@@ -274,9 +270,7 @@ public:
         return target >= 0 && target < locationCount && visited[target];
     }
 
-    // ##########################################################
-    // #  MEMBER 2  :  shortestPath (Dijkstra), minimumSpanningTree (Prim), printRoute
-    // ##########################################################
+  
     // ---------------------------------------------------------------
     //  Shortest route (Module 7) - DIJKSTRA'S ALGORITHM
     //
