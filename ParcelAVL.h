@@ -27,9 +27,7 @@
 #include "Models.h"
 using namespace std;
 
-// ##########################################################
-// #  MEMBER 1  :  rotateRight, rotateLeft, AVLNode struct, heightOf, maxOf, updateHeight, balanceFactor
-// ##########################################################
+
 struct AVLNode {
     int key;                // tracking ID
     Parcel* parcel;         // pointer to the parcel record
@@ -105,9 +103,7 @@ private:
         return y;                   // y is the new root of this subtree
     }
 
-    // ##########################################################
-    // #  MEMBER 2  :  insertHelper (balancing), findNode, depthSum, checkBalance, traversal helpers
-    // ##########################################################
+   
     // ---------- insertion ----------
 
     AVLNode* insertHelper(AVLNode* node, int key, Parcel* parcel) {
@@ -205,9 +201,7 @@ private:
         cout << node->key << " ";
     }
 
-    // ##########################################################
-    // #  MEMBER 3  :  sidewaysHelper (tree drawing), insert, search, destroy, constructor, destructor, getters, isBalanced, averageSearchSteps, show functions
-    // ##########################################################
+ 
     // Prints the tree turned 90 degrees: the root is at the left edge, bigger keys are drawn
     // ABOVE their parent (/--), smaller keys BELOW their parent (\--) and | joins a child to its parent.
     //        /-- 20
